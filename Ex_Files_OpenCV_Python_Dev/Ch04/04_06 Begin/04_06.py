@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-img = cv2.imread("faces.jpeg",1)
+img = cv2.imread("faces.jpeg", 1)
 
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
@@ -21,7 +21,7 @@ print (len(eyes))
 for (x, y, w, h) in eyes:
     cv2.circle(img, (x + int(w/2), y + int(h/2)), 8, (0, 255, 0), 2)
 
-cv2.namedWindow("faces",cv2.WINDOW_NORMAL)
+cv2.namedWindow("faces", cv2.WINDOW_NORMAL)
 
 cv2.imshow("faces", img)
 
