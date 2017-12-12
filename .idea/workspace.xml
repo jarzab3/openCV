@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11138849-69a9-4eae-96cc-225f512bf348" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceDetection/faceDetPy.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceDetection/faceTrack.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceDetection/faceTracking.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceDetection/haarcascade_frontalface_default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/motionObjectDetec/totalTime.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mdxFaceTimeCounter/counterFaceDetected.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mdxFaceTimeCounter/totalTime.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faceDetection/faceTrack.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faceDetection/totalTime.txt" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faceDetection/faceDetPy.py" afterPath="$PROJECT_DIR$/faceDetection/faceDetectionDrawingRec.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faceDetection/faceTracking.py" afterPath="$PROJECT_DIR$/mdxFaceTimeCounter/faceTracking.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faceDetection/haarcascade_frontalface_default.xml" afterPath="$PROJECT_DIR$/mdxFaceTimeCounter/haarcascade_frontalface_default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ex_Files_OpenCV_Python_Dev/Ch04/04_06 Begin/04_06.py" afterPath="$PROJECT_DIR$/Ex_Files_OpenCV_Python_Dev/Ch04/04_06 Begin/04_06.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/motionObjectDetec/faceDetPy.py" afterPath="$PROJECT_DIR$/motionObjectDetec/faceDetPy.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,45 +32,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="faceDetPy.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/faceDetection/faceDetPy.py">
+      <file leaf-file-name="faceDetectionDrawingRec.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/faceDetection/faceDetectionDrawingRec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="120" column="28" lean-forward="true" selection-start-line="120" selection-start-column="28" selection-end-line="120" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="faceTracking.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/faceDetection/faceTracking.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="830">
-              <caret line="60" column="46" lean-forward="true" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="faceTrack.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/faceDetection/faceTrack.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-573">
-              <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+            <state relative-caret-position="330">
+              <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="faceDetPy.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/motionObjectDetec/faceDetPy.py">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="15">
+              <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -129,6 +105,10 @@
         <option value="$PROJECT_DIR$/motionObjectDetec/faceDetPy.py" />
         <option value="$PROJECT_DIR$/faceDetection/faceTracking.py" />
         <option value="$PROJECT_DIR$/faceDetection/faceTrack.py" />
+        <option value="$PROJECT_DIR$/faceDetection/newCustomTrack.py" />
+        <option value="$PROJECT_DIR$/mdxFaceTimeCounter/counterFaceDetected.py" />
+        <option value="$PROJECT_DIR$/faceDetection/faceDetPy.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -138,10 +118,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="727" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-162" />
+    <option name="y" value="-1001" />
+    <option name="width" value="1640" />
+    <option name="height" value="998" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -158,6 +139,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -166,16 +148,10 @@
               <item name="openCV" type="b2602c69:ProjectViewProjectNode" />
               <item name="openCV" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="openCV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="openCV" type="462c0819:PsiDirectoryNode" />
-              <item name="faceDetection" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,14 +161,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/faceDetection" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/faceDetection" />
       <recent name="$PROJECT_DIR$/motionObjectDetec" />
       <recent name="$PROJECT_DIR$/faceDetectionLive" />
       <recent name="$PROJECT_DIR$/Ex_Files_OpenCV_Python_Dev/Ch03/03_02 Begin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mdxFaceTimeCounter" />
+      <recent name="$PROJECT_DIR$/faceDetection" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -380,20 +357,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="727" extended-state="0" />
+    <frame x="-165" y="-1028" width="1680" height="1028" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2786753" sideWeight="0.49239543" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21733822" sideWeight="0.49239543" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18756476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14781906" sideWeight="0.50760454" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14781906" sideWeight="0.50760454" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -415,9 +392,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/image.py" />
-    <entry file="file://$PROJECT_DIR$/object-classification/scripts.py" />
-    <entry file="file://$PROJECT_DIR$/object-classification/utils.py" />
     <entry file="file://$PROJECT_DIR$/object-classification/main.py" />
     <entry file="file://$PROJECT_DIR$/image.py" />
     <entry file="file://$PROJECT_DIR$/object-classification/utils.py" />
@@ -589,13 +563,6 @@
     <entry file="file://$PROJECT_DIR$/faceDetectionLive/haarcascade_frontalface_default.xml" />
     <entry file="file://$PROJECT_DIR$/faceDetectionLive/faceDetPy.py" />
     <entry file="file://$PROJECT_DIR$/faceDetectionLive/motion" />
-    <entry file="file://$PROJECT_DIR$/Ex_Files_OpenCV_Python_Dev/Ch04/04_05 Begin/04_05.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ex_Files_OpenCV_Python_Dev/Ch04/04_07 Solution/04_06.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -641,9 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -654,26 +618,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/faceDetection/motion.py" />
     <entry file="file://$PROJECT_DIR$/motionObjectDetec/faceDetPy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-1172">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/faceDetection/motion.py">
+    <entry file="file://$PROJECT_DIR$/mdxFaceTimeCounter/newCustomTrack.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="91" column="35" lean-forward="false" selection-start-line="91" selection-start-column="35" selection-end-line="91" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faceDetection/faceTracking.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="830">
-          <caret line="60" column="46" lean-forward="true" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
+        <state relative-caret-position="960">
+          <caret line="64" column="11" lean-forward="false" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -682,19 +639,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/faceDetection/faceTrack.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-573">
+        <state relative-caret-position="300">
           <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/faceDetection/faceDetPy.py">
+    <entry file="file://$PROJECT_DIR$/mdxFaceTimeCounter/counterFaceDetected.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="120" column="28" lean-forward="true" selection-start-line="120" selection-start-column="28" selection-end-line="120" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="193">
+          <caret line="91" column="50" lean-forward="true" selection-start-line="91" selection-start-column="50" selection-end-line="91" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mdxFaceTimeCounter/faceTracking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ex_Files_OpenCV_Python_Dev/Ch04/04_05 Begin/04_05.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faceDetection/faceDetectionDrawingRec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
