@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11138849-69a9-4eae-96cc-225f512bf348" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mdxFaceTimeCounter/counterFaceDetected.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mdxFaceTimeCounter/totalTime.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faceDetection/faceTrack.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faceDetection/totalTime.txt" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/faceDetection/faceDetPy.py" afterPath="$PROJECT_DIR$/faceDetection/faceDetectionDrawingRec.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/faceDetection/faceTracking.py" afterPath="$PROJECT_DIR$/mdxFaceTimeCounter/faceTracking.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/faceDetection/haarcascade_frontalface_default.xml" afterPath="$PROJECT_DIR$/mdxFaceTimeCounter/haarcascade_frontalface_default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceDetection/haarcascade_frontalface_default.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ex_Files_OpenCV_Python_Dev/Ch04/04_06 Begin/haarcascade_eye.xml" afterPath="$PROJECT_DIR$/mdxFaceTimeCounter/haarcascade_eye.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ex_Files_OpenCV_Python_Dev/Ch04/04_05 End/04_05.py" afterPath="$PROJECT_DIR$/Ex_Files_OpenCV_Python_Dev/Ch04/04_05 End/04_05.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/faceDetection/faceDetectionDrawingRec.py" afterPath="$PROJECT_DIR$/faceDetection/faceDetectionDrawingRec.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,22 +29,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="faceDetectionDrawingRec.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="faceDetectionDrawingRec.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/faceDetection/faceDetectionDrawingRec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="counterFaceDetected.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mdxFaceTimeCounter/counterFaceDetected.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-              <folding />
+            <state relative-caret-position="195">
+              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="61" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,6 +110,8 @@
         <option value="$PROJECT_DIR$/mdxFaceTimeCounter/counterFaceDetected.py" />
         <option value="$PROJECT_DIR$/faceDetection/faceDetPy.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Ex_Files_OpenCV_Python_Dev/Ch04/04_05 End/04_05.py" />
+        <option value="$PROJECT_DIR$/faceDetection/faceDetectionDrawingRec.py" />
       </list>
     </option>
   </component>
@@ -148,6 +151,11 @@
               <item name="openCV" type="b2602c69:ProjectViewProjectNode" />
               <item name="openCV" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="openCV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openCV" type="462c0819:PsiDirectoryNode" />
+              <item name="faceDetection" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -162,14 +170,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mdxFaceTimeCounter" />
       <recent name="$PROJECT_DIR$/faceDetection" />
       <recent name="$PROJECT_DIR$/motionObjectDetec" />
       <recent name="$PROJECT_DIR$/faceDetectionLive" />
       <recent name="$PROJECT_DIR$/Ex_Files_OpenCV_Python_Dev/Ch03/03_02 Begin" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/mdxFaceTimeCounter" />
       <recent name="$PROJECT_DIR$/faceDetection" />
+      <recent name="$PROJECT_DIR$/mdxFaceTimeCounter" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -360,7 +369,7 @@
     <frame x="-165" y="-1028" width="1680" height="1028" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21733822" sideWeight="0.49239543" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1947497" sideWeight="0.49239543" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -388,13 +397,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/object-classification/main.py" />
-    <entry file="file://$PROJECT_DIR$/image.py" />
-    <entry file="file://$PROJECT_DIR$/object-classification/utils.py" />
     <entry file="file://$PROJECT_DIR$/object-classification/scripts.py" />
     <entry file="file://$PROJECT_DIR$/object-classification/main.py" />
     <entry file="file://$PROJECT_DIR$/Ex_Files_OpenCV_Python_Dev/Ch02/02_05 End/02_05.py">
@@ -527,13 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ex_Files_OpenCV_Python_Dev/Ch04/04_03 Begin/04_03.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ex_Files_OpenCV_Python_Dev/Ch04/04_05 Begin/haarcascade_frontalface_default.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-498843">
@@ -553,7 +554,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ex_Files_OpenCV_Python_Dev/Ch04/04_06 Begin/haarcascade_eye.xml">
+    <entry file="file://$PROJECT_DIR$/mdxFaceTimeCounter/haarcascade_eye.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="602" column="23" lean-forward="false" selection-start-line="602" selection-start-column="23" selection-end-line="602" selection-end-column="23" />
@@ -587,13 +588,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ex_Files_OpenCV_Python_Dev/Ch04/04_03 End/04_03.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ex_Files_OpenCV_Python_Dev/Ch04/04_03 End/players.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -619,14 +613,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/faceDetection/motion.py" />
-    <entry file="file://$PROJECT_DIR$/motionObjectDetec/faceDetPy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1172">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mdxFaceTimeCounter/newCustomTrack.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
@@ -645,34 +631,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mdxFaceTimeCounter/counterFaceDetected.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="91" column="50" lean-forward="true" selection-start-line="91" selection-start-column="50" selection-end-line="91" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mdxFaceTimeCounter/faceTracking.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ex_Files_OpenCV_Python_Dev/Ch04/04_05 Begin/04_05.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faceDetection/faceDetectionDrawingRec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -682,6 +644,84 @@
         <state relative-caret-position="15">
           <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ex_Files_OpenCV_Python_Dev/Ch04/04_03 Begin/04_03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ex_Files_OpenCV_Python_Dev/Ch04/04_05 Begin/04_05.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ex_Files_OpenCV_Python_Dev/Ch04/04_03 End/04_03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/motionObjectDetec/motion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-756">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/motionObjectDetec/faceDetPy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ex_Files_OpenCV_Python_Dev/Ch04/04_05 End/04_05.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mdxFaceTimeCounter/counterFaceDetected.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="61" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mdxFaceTimeCounter/haarcascade_frontalface_default.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faceDetection/faceDetectionDrawingRec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
