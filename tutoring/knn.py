@@ -14,13 +14,21 @@ plt.scatter(blue[:,0],blue[:,1],80,'b','s')
 # plt.show()
 
 
-newcomer = np.random.randint(0,100,(1,2)).astype(np.float32)
+newcomer = np.random.randint(0,100, 2).astype(np.float32)
 plt.scatter(newcomer[:,0],newcomer[:,1],80,'g','o')
-knn = cv2.KNearest()
+
+# knn = cv2.KNearest()
+
+knn = cv2.ml.KNearest_create()
+
+# TODO fix the KNearest function
+
 knn.train(trainData,responses)
-ret, results, neighbours ,dist = knn.find_nearest(newcomer, 3)
-print ("result: ", results,"\n")
-print ("neighbours: ", neighbours,"\n")
-print ("distance: ", dist)
+
+ret, results, neighbours, dist = knn.find_nearest(newcomer, 3)
+
+print("result: ", results, "\n")
+print("neighbours: ", neighbours, "\n")
+print("distance: ", dist)
 
 plt.show()
