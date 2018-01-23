@@ -6,15 +6,15 @@ import numpy as np
 import struct ## new
 
 HOST=''
-PORT=8089
+PORT=8090
 
 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-print 'Socket created'
+print('Socket created')
 
 s.bind((HOST,PORT))
-print 'Socket bind complete'
+print('Socket bind complete')
 s.listen(10)
-print 'Socket now listening'
+print('Socket now listening')
 
 conn,addr=s.accept()
 
@@ -34,5 +34,5 @@ while True:
     ###
 
     frame=pickle.loads(frame_data)
-    print frame
+    print(frame)
     cv2.imshow('frame',frame)
