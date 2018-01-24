@@ -1,3 +1,4 @@
+
 import socket
 import sys
 import cv2
@@ -20,7 +21,7 @@ conn,addr=s.accept()
 
 ### new
 data = ""
-payload_size = struct.calcsize("H") 
+payload_size = struct.calcsize("H")
 while True:
     while len(data) < payload_size:
         data += conn.recv(4096)
