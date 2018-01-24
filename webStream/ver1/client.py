@@ -6,7 +6,7 @@ import pickle
 
 cap=cv2.VideoCapture(0)
 clientsocket=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-clientsocket.connect(('10.14.113.160',8089))
+clientsocket.connect(('10.14.113.63',8089))
 
 while True:
     ret,frame=cap.read()

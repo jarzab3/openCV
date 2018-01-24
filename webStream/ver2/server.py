@@ -2,7 +2,7 @@
 from socket import *
 
 # Set the socket parameters
-host = "localhost"
+host = ""
 port = 21567
 buf = 4096
 addr = (host,port)
