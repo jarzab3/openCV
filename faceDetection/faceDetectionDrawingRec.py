@@ -20,8 +20,11 @@ while True:
         minSize=(30, 30),
         flags=cv2.CASCADE_SCALE_IMAGE
     )
-
-
+    # print (len(faces))
+    if(len(faces) > 0):
+        print ("Found: {}".format(len(faces)))
+    else:
+        print("Not found:")
     # Draw a rectangle around the faces
     for (x, y, w, h) in faces:
         cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
