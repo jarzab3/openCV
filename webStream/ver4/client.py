@@ -9,9 +9,9 @@ import struct
 
 
 def StartStreamSending():
-    u"""
-    Funkcja przesyłająca stream z lokalnej kamery[0] na serwer.
-    """
+    # u"""
+    # Funkcja przesyłająca stream z lokalnej kamery[0] na serwer.
+    # """
     UDP_IP = "10.3.254.31"
     UDP_PORT = 8012
     cap=cv2.VideoCapture(0)
